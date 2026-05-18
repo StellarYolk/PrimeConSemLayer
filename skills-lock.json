@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "skills": {
+    "ai-sdk": {
+      "source": "vercel/ai",
+      "sourceType": "github",
+      "skillPath": "skills/use-ai-sdk/SKILL.md",
+      "computedHash": "2249889eb47ef0f61c4dba4cf2afe01c1c8dd793bb4c24230347c1ab909bb7dd"
+    },
+    "autofix": {
+      "source": "coderabbitai/skills",
+      "sourceType": "github",
+      "skillPath": "skills/autofix/SKILL.md",
+      "computedHash": "421f9102c20fb1c91d87a10ca9bee2e91c7e632e644dfdd3dc013e53865df6c1"
+    },
+    "code-review": {
+      "source": "coderabbitai/skills",
+      "sourceType": "github",
+      "skillPath": "skills/code-review/SKILL.md",
+      "computedHash": "6d117c3f8797e0c770c6b00a646a07028f3440b5d8042e8f841e88ed1116788f"
+    },
+    "excalidraw-diagram-generator": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "skillPath": "skills/excalidraw-diagram-generator/SKILL.md",
+      "computedHash": "e24e3c4cab4b5a07bc1d1801db14868f3a1cd184f7f28f5dd2c4a2b234bf2f2d"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "computedHash": "063a0e6448123cd359ad0044cc46b0e490cc7964d45ef4bb9fd842bd2ffbca67"
+    },
+    "personize-governance": {
+      "source": "personizeai/personize-skills",
+      "sourceType": "github",
+      "skillPath": "skills/personize-governance/SKILL.md",
+      "computedHash": "c490d2aaf69cf772118e713ceb7cf28faaa32c4fdb3d2360a01d92b5c1f29a69"
+    },
+    "personize-memory": {
+      "source": "personizeai/personize-skills",
+      "sourceType": "github",
+      "skillPath": "skills/personize-memory/SKILL.md",
+      "computedHash": "3078d6f97cfd98b22dc0afa51dfe20234b2bcc6540cd340fee033bb8cff29b63"
+    },
+    "personize-solution-architect": {
+      "source": "personizeai/personize-skills",
+      "sourceType": "github",
+      "skillPath": "skills/personize-solution-architect/SKILL.md",
+      "computedHash": "dddefb4c4425914eb1e97d92b868f1ff56e8c26d30f596d4c437379718c19eb4"
+    }
+  }
+}
