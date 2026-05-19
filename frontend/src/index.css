@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0F0F1A;
+  color: #E2E8F0;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+.react-flow__node {
+  font-size: 12px;
+}
+
+.react-flow__edge-path {
+  stroke: #475569;
+}
+
+.react-flow__edge.animated .react-flow__edge-path {
+  stroke-dasharray: 5;
+  animation: dashdraw 0.5s linear infinite;
+}
+
+@keyframes dashdraw {
+  from {
+    stroke-dashoffset: 10;
+  }
+}
+
+.react-flow__controls button {
+  background-color: #16213E;
+  border-color: #0F3460;
+  color: #E2E8F0;
+}
+
+.react-flow__controls button:hover {
+  background-color: #0F3460;
+}
+
+.react-flow__minimap {
+  background-color: #16213E;
+}
