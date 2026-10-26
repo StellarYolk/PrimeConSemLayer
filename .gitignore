@@ -1,1 +1,5 @@
 .env
+.agents/
+AGENTS*
+PROMPT.json
+skills-lock.json
